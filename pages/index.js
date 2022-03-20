@@ -71,27 +71,9 @@ export default function Home() {
             />
             :
             <select value={locale} onChange={selectLanguage}>
-              <option value="en">
-                {/* <FormattedMessage
-                  id="app.change.language.dropdown.label.english"
-                  defaultMessage="English"
-                /> */}
-                English
-              </option>
-              <option value="de">
-                <FormattedMessage
-                  id="app.change.language.dropdown.label.german"
-                  defaultMessage="German"
-                />
-                German
-              </option>
-              <option value="ar">
-                <FormattedMessage
-                  id="app.change.language.dropdown.label.arabic"
-                  defaultMessage="Arabic"
-                />
-                Arabic
-              </option>
+              <option value="en">English</option>
+              <option value="de">German</option>
+              <option value="ar">Arabic</option>
             </select>
           </p>
         </main>
