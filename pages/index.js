@@ -42,14 +42,7 @@ export default function Home() {
     <IntlProvider locale={locale} messages={messages}>
       <div className={styles.container}>
         <Head>
-          <title>
-            {
-              <FormattedMessage
-                id="app.title"
-                defaultMessage="Next.js React intl demo"
-              />
-            }
-          </title>
+          <title>Next.js React intl demo</title>
         </Head>
 
         <main className={styles.main}>
