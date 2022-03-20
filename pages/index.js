@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { IntlProvider } from 'react-intl';
@@ -66,28 +66,31 @@ export default function Home() {
           </p>
           <p>
             <FormattedMessage
-              id="app.change.language"
+              id="app.change.language.dropdown.label"
               defaultMessage="Change language"
             />
             :
             <select value={locale} onChange={selectLanguage}>
               <option value="en">
-                <FormattedMessage
-                  id="app.change.language.dropodwon.label.english"
+                {/* <FormattedMessage
+                  id="app.change.language.dropdown.label.english"
                   defaultMessage="English"
-                />
+                /> */}
+                English
               </option>
               <option value="de">
                 <FormattedMessage
-                  id="app.change.language.dropodwon.label.german"
+                  id="app.change.language.dropdown.label.german"
                   defaultMessage="German"
                 />
+                German
               </option>
               <option value="ar">
                 <FormattedMessage
-                  id="app.change.language.dropodwon.label.arabic"
+                  id="app.change.language.dropdown.label.arabic"
                   defaultMessage="Arabic"
                 />
+                Arabic
               </option>
             </select>
           </p>
