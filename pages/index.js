@@ -43,10 +43,12 @@ export default function Home() {
       <div className={styles.container}>
         <Head>
           <title>
-            <FormattedMessage
-              id="app.title"
-              defaultMessage="Next.js React intl demo"
-            />
+            {
+              <FormattedMessage
+                id="app.title"
+                defaultMessage="Next.js React intl demo"
+              />
+            }
           </title>
         </Head>
 
