@@ -42,30 +42,55 @@ export default function Home() {
     <IntlProvider locale={locale} messages={messages}>
       <div className={styles.container}>
         <Head>
-          <title>Next.js React intl demo</title>
+          <title>
+            <FormattedMessage
+              id="app.title"
+              defaultMessage="Next.js React intl demo"
+            />
+          </title>
         </Head>
 
         <main className={styles.main}>
-          <p>
-            <select value={locale} onChange={selectLanguage}>
-              <option value="en">English</option>
-              <option value="de">German</option>
-              <option value="ar">Arabic</option>
-            </select>
-          </p>
+          <h1>
+            <FormattedMessage id="app.content" defaultMessage="Learn Next.js" />
+          </h1>
           <p>
             <FormattedMessage
               id="app.header"
               defaultMessage="Edit the files and save to reload"
               values={{
-                fileName: 'src/App.js',
+                fileName: 'pages/index.js',
                 code: (word) => <code>{word}</code>,
               }}
             />
           </p>
-          <h1>
-            <FormattedMessage id="app.content" defaultMessage="Learn Next.js" />
-          </h1>
+          <p>
+            <FormattedMessage
+              id="app.change.language"
+              defaultMessage="Change language"
+            />
+            :
+            <select value={locale} onChange={selectLanguage}>
+              <option value="en">
+                <FormattedMessage
+                  id="app.change.language.dropodwon.label.english"
+                  defaultMessage="English"
+                />
+              </option>
+              <option value="de">
+                <FormattedMessage
+                  id="app.change.language.dropodwon.label.german"
+                  defaultMessage="German"
+                />
+              </option>
+              <option value="ar">
+                <FormattedMessage
+                  id="app.change.language.dropodwon.label.arabic"
+                  defaultMessage="Arabic"
+                />
+              </option>
+            </select>
+          </p>
         </main>
 
         <footer className={styles.footer}>

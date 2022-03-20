@@ -1,5 +1,10 @@
 {
-    "app.header": "Edit <code>{fileName}<\/code> js and save to reload",
-    "app.content": "Learn Next.js",
-    "app.channel.plug": "This Tutorial brought to you by {blogName}"
+  "app.title": "Next.js React intl demo",
+  "app.header": "Edit <code>{fileName}</code> and save to reload",
+  "app.content": "Learn Next.js",
+  "app.channel.plug": "This Tutorial brought to you by {blogName}",
+  "app.change.language.dropodwon.label": "Change language",
+  "app.change.language.dropodwon.label.english": "English",
+  "app.change.language.dropodwon.label.german": "German",
+  "app.change.language.dropodwon.label.arabic": "Arabic"
 }
