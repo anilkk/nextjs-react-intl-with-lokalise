@@ -1,9 +1,9 @@
 {
-  "app.header": "قم بتحرير الملفات وحفظها لإعادة التحميل",
-  "app.content": "تعلم Next.js",
-  "app.channel.plug": "يقدم لك البرنامج التعليمي Lokalise",
-  "app.change.language.dropdown.label": "تغيير اللغة",
-  "app.change.language.dropdown.label.english": "الإنكليزية",
-  "app.change.language.dropdown.label.german": "الألمانية",
-  "app.change.language.dropdown.label.arabic": "العربية"
+    "app.header": "قم بتحرير الملفات وحفظها لإعادة التحميل",
+    "app.content": "تعلم Next.js",
+    "app.channel.plug": "يقدم لك البرنامج التعليمي Lokalise",
+    "app.change.language.dropdown.label": "تغيير اللغة",
+    "app.change.language.dropdown.label.english": "الإنكليزية",
+    "app.change.language.dropdown.label.german": "الألمانية",
+    "app.change.language.dropdown.label.arabic": "العربية"
 }

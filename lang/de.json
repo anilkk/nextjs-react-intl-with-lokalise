@@ -1,9 +1,9 @@
 {
-  "app.header": "Bearbeiten Sie die Dateien und speichern Sie sie, um sie erneut zu laden.",
-  "app.content": "Next.js lernen",
-  "app.channel.plug": "Tutorial zur Verfügung gestellt von Lokalise",
-  "app.change.language.dropdown.label": "Sprache ändern",
-  "app.change.language.dropdown.label.english": "Englisch",
-  "app.change.language.dropdown.label.german": "Deutsch",
-  "app.change.language.dropdown.label.arabic": "Arabisch"
+    "app.header": "Bearbeiten Sie die Dateien und speichern Sie sie, um sie erneut zu laden.",
+    "app.content": "Next.js lernen",
+    "app.channel.plug": "Tutorial zur Verfügung gestellt von Lokalise",
+    "app.change.language.dropdown.label": "Sprache ändern",
+    "app.change.language.dropdown.label.english": "Englisch",
+    "app.change.language.dropdown.label.german": "Deutsch",
+    "app.change.language.dropdown.label.arabic": "Arabisch"
 }
