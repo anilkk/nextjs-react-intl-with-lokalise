@@ -1,9 +1,9 @@
 {
-  "app.header": "Edit <code>{fileName}</code> js and save to reload",
-  "app.content": "Learn Next.js",
-  "app.channel.plug": "This Tutorial brought to you by {blogName}",
-  "app.change.language.dropdown.label": "Change language",
-  "app.change.language.dropdown.label.english": "English",
-  "app.change.language.dropdown.label.german": "German",
-  "app.change.language.dropdown.label.arabic": "Arabic"
+    "app.header": "Edit <code>{fileName}<\/code> js and save to reload",
+    "app.content": "Learn Next.js",
+    "app.channel.plug": "This Tutorial brought to you by {blogName}",
+    "app.change.language.dropdown.label": "Change language",
+    "app.change.language.dropdown.label.english": "English",
+    "app.change.language.dropdown.label.german": "German",
+    "app.change.language.dropdown.label.arabic": "Arabic"
 }
