@@ -1,5 +1,10 @@
 {
     "app.header": "قم بتحرير الملفات وحفظها لإعادة التحميل",
     "app.content": "تعلم Next.js",
-    "app.channel.plug": "يقدم لك البرنامج التعليمي Lokalise"
+    "app.channel.plug": "يقدم لك البرنامج التعليمي Lokalise",
+    "app.title": "Next.js رد فعل intl demo",
+    "app.change.language.dropodwon.label": "تغيير اللغة",
+    "app.change.language.dropodwon.label.english": "الإنكليزية",
+    "app.change.language.dropodwon.label.german": "الألمانية",
+    "app.change.language.dropodwon.label.arabic": "العربية"
 }
