@@ -1,0 +1,5 @@
+{
+  "app.header": "Edit <code>{fileName}</code> js and save to reload",
+  "app.content": "Learn Next.js",
+  "app.channel.plug": "Tutorial brought to you by {blogName}"
+}
